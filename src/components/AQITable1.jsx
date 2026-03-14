@@ -136,7 +136,7 @@ const AQITable1 = () => {
   const barChartData = {
     labels: chartCities.map(city => city.city.split(",")[0]),
     datasets: [{
-      label: 'Average AQI 2024',
+      label: 'Average AQI 2025',
       data: chartCities.map(city => city.avg),
       backgroundColor: chartCities.map(city => getChartColor(city.avg)),
       borderColor: chartCities.map(city => getChartColor(city.avg)),
@@ -274,7 +274,7 @@ const AQITable1 = () => {
             color: 'white',
             letterSpacing: '-0.5px',
           }}>
-            India's AQI Rankings 2024
+            India's AQI Rankings 2025
           </h1>
           <p style={{
             color: 'rgba(255, 255, 255, 0.8)',
@@ -442,7 +442,7 @@ const AQITable1 = () => {
                 <tr>
                   <th style={thStyle}>Rank</th>
                   <th style={thStyle}>City</th>
-                  <th style={thStyle}>2024 Avg</th>
+                  <th style={thStyle}>2025 Avg</th>
                   {months.map((month) => (
                     <th key={month} style={thStyle}>{month}</th>
                   ))}

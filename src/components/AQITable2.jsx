@@ -467,7 +467,7 @@ months: [158, 100, 60, 55, 25, 29, 16, 23, 22, 39, 76, 78]
             color: 'white',
             letterSpacing: '-0.5px',
           }}>
-            India's PM2.5 Air Quality Rankings 2024
+            India's PM2.5 Air Quality Rankings 2025
           </h1>
           <p style={{
             color: 'rgba(255, 255, 255, 0.8)',
@@ -715,7 +715,7 @@ months: [158, 100, 60, 55, 25, 29, 16, 23, 22, 39, 76, 78]
                 <tr>
                   <th style={thStyle}>Rank</th>
                   <th style={thStyle}>City</th>
-                  <th style={thStyle}>2024 Avg</th>
+                  <th style={thStyle}>2025 Avg</th>
                   {months.map((month) => (
                     <th key={month} style={thStyle}>{month}</th>
                   ))}

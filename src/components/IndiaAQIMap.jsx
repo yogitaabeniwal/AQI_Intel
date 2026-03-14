@@ -16764,9 +16764,9 @@ const IndiaAQIMap = () => {
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        <h1 style={styles.title}>Indian Air Quality Data 2024</h1>
+        <h1 style={styles.title}>Indian Air Quality Data 2025</h1>
         <p style={styles.subtitle}>
-          Air quality monitoring 2024 across major Indian cities. 
+          Air quality monitoring 2025 across major Indian cities. 
           Click on stations for detailed information and historical trends.
         </p>
       </header>

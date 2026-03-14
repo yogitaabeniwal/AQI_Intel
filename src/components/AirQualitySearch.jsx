@@ -16545,7 +16545,7 @@ const AirQualitySearch = () => {
       <div className="app-container">
         {/* Header */}
         <div className="app-header">
-          <h1 className="app-title">Search Air Quality Data 2024</h1>
+          <h1 className="app-title">Search Air Quality Data 2025</h1>
           <p className="app-subtitle">
             Search for real-time air quality data across monitoring stations in India
           </p>

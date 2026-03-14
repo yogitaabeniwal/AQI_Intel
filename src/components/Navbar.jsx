@@ -334,7 +334,7 @@ const Navbar = () => {
           onMouseLeave={() => handleLogoHover(false)}
         >
           <div style={logoIcon}>🇮🇳</div>
-          <Link to="/" style={link}><span style={logoText}>AQ-INDIA</span></Link>
+          <Link to="/" style={link}><span style={logoText}>AQIIntel</span></Link>
         </div>
 
         {/* Desktop Navigation */}
@@ -375,10 +375,10 @@ const Navbar = () => {
                 <div style={rankingCard}>
                   <div style={{ ...cardBackground, backgroundImage: 'url(https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)' }} />
                   <div style={cardContent}>
-                    <h3 style={cardTitle}>2024 City Ranking</h3>
+                    <h3 style={cardTitle}>2025 City Ranking</h3>
                     <div style={cardDivider} />
                     <p style={cardDescription}>
-                      Explore the latest air quality rankings for cities worldwide based on 2024 data.
+                      Explore the latest air quality rankings for cities worldwide based on 2025 data.
                     </p>
                   </div>
                 </div>
@@ -459,10 +459,10 @@ const Navbar = () => {
                   <div style={{ ...rankingCard, width: '100%', height: 'auto', marginBottom: '1rem' }}>
                     <div style={{ ...cardBackground, backgroundImage: 'url(https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)' }} />
                     <div style={cardContent}>
-                      <h3 style={cardTitle}>2024 City Ranking</h3>
+                      <h3 style={cardTitle}>2025 City Ranking</h3>
                       <div style={cardDivider} />
                       <p style={cardDescription}>
-                        Explore the latest air quality rankings for cities worldwide based on 2024 data.
+                        Explore the latest air quality rankings for cities worldwide based on 2025 data.
                       </p>
                     </div>
                   </div>
